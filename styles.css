@@ -1,0 +1,180 @@
+/* Elements */
+
+body {
+	background-color: #000000;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+		background: repeating-radial-gradient(closest-side at 3px 40px, #00ff86 15%, #fb00ff 39%);
+}
+
+.square {
+	background-color: #f30505;
+	height: 120px;
+	width: 200px;
+	z-index: 1;
+	position: unset;
+	filter: blur(1px);
+		transform: skew(25deg, 10deg)
+}
+
+.square-2 {
+	background-color: #e405f3;
+	height: 200px;
+	width: 200px;
+	z-index: 1;
+	position: fixed;
+	filter: blur(1px);
+	position: unset;
+
+}
+
+.circle {
+	width: 30em;
+	height: 30em;
+	background-color: cyan;
+	border-radius: 50%;
+	position: absolute;
+	left: 70%;
+	top: 30%;
+	z-index: 1;
+	filter: blur(100px);
+}
+
+.circle-2 {
+	width: 5em;
+	height: 5em;
+	background-color: #67fc6f;
+	border-radius: 50%;
+	position: absolute;
+	left: 13%;
+	top: 17%;
+	filter: blur(20px);
+}
+
+.circle-3 {
+	width: 30em;
+	height: 30em;
+	background-color: cyan;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	z-index: 1;
+	filter: blur(100px);
+}
+
+.circle-4 {
+	width: 15em;
+	height: 15em;
+	background-color: #67fc6f;
+	border-radius: 50%;
+	position: absolute;
+	left: 54%;
+	top: 17%;
+	filter: blur(37px);
+}
+
+.line {
+	height: 109px;
+	width: 100%;
+	background-color: #6db5ff;
+	transform: rotate(-45deg);
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+
+.triangle {
+	width: 0;
+		 height: 0;
+		 border-left: 137px solid transparent;
+		 border-right: 137px solid transparent;
+		 border-bottom: 216px solid blue;
+		 position: fixed;
+		 top: 145px;
+		 right: 245px;
+}
+
+.circle-5 {
+      width: 130px;
+      height: 130px;
+      background: red;
+      border-radius: 50%;
+			position: fixed;
+			position: fixed;
+ 		 top: 145px;
+ 		 right: 245px;
+}
+
+.line-3 {
+background-color: #F44336;
+	height: 5px;
+	width: 1000px;
+	border-top: 1px solid blue;
+	transform: rotate(30deg);
+}
+
+.line-4 {
+background-color: #F44336;
+	height: 5px;
+	width: 500px;
+	border-top: 1px solid blue;
+	transform: rotate(30deg);
+	position: fixed;
+ top: 145px;
+ right: 245px;
+}
+
+.line-5 {
+background-color: #F44336;
+	height: 5px;
+	width: 1000px;
+	border-top: 1px solid blue;
+	transform: rotate(145deg);
+	position: fixed;
+ top: 145px;
+ right: 245px;
+}
+
+.square-3 {
+	width: 15em;
+	height: 15em;
+	top: 240px;
+  left: 404px;
+  background: rgb(239, 71, 111);
+	position: absolute;
+}
+
+.square-4 {
+    width: 10em;
+    height: 10em;
+    top: 240px;
+    left: 404px;
+    background: rgb(255, 209, 102);
+    position: absolute;
+}
+
+.square-5 {
+	width: 15em;
+	height: 15em;
+	top: 320px;
+	left: 484px;
+	background: rgb(17, 138, 178);
+	position: absolute;
+}
+
+.square-6 {
+    width: 15em;
+    height: 15em;
+    top: 400px;
+    left: 564px;
+    background: rgb(6, 214, 160);
+    position: absolute;
+}
